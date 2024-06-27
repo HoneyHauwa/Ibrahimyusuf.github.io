@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>galary page</title>
+    <link rel="stylesheet" href="styles.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+
+
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 40px 20px 0 20px;
+
+    }
+
+    .container .heading {
+       width: 50%;
+       padding-bottom:50px;
+
+    }
+
+    .container .heading h3  {
+        font-size: 3em;
+        font-weight: bolder;
+        border-bottom: 3px solid #222;
+        padding-bottom: 10px;
+    }
+
+    .container .heading h3 span {
+        font-weight: 100;
+    }
+
+    .container .box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+    }
+
+    .container .box .dream {
+    display: flex;
+    flex-direction:column;
+    width: 32.5%;
+
+    }
+
+     .container .box .dream img {
+    width:100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+
+    }
+
+    .container .btn {
+        margin: 40px 0 70px 0;
+        background: #f3d219;
+        padding: 15px 40px;
+        border-radius: 5px;
+
+    }
+
+     .container .btn a {
+        color:#fff;
+        font-size: 1.2em;
+        text-decoration: none;
+        font-weight: bolder;
+        letter-spacing: 3px;
+    }
+
+    @media only screen and (max-width: 769px){
+        .container .box {
+        flex-direction: column;
+       
+       
+    }
+
+    .container .box .dream {
+   
+    width:100%;
+
+    }
+
+    }
+
+
+</style>
+<body>
+
+ <nav class="navbar">
+        <div class="navbar_container" >
+            <!-- <a href="" id="navbar__logo">SALTART </a> -->
+            <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">Home</a>
+                </li>
+                 <li class="navbar__item">
+                    <a href="/About.html" class="navbar__links">About</a>
+                </li>
+                 <li class="navbar__item">
+                    <a href="gallery.html" class="navbar__links">Gallery</a>
+                </li>
+                 <li class="navbar__btn">
+                    <a href="contact.html" class="button">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="heading">
+            <h3>photo <span>Gallery</span></h3>
+        </div>
+
+        <div class="box">
+            <!-- 1 -->
+            <div class="dream">
+                <img src="images/ibrahim1.jpeg" alt="" style="width: 300px; width: 300px;">
+                <img src="images/ibrahim2.jpeg" alt="" style="width: 300px; width: 300px;">
+                <img src="images/ibrahim3.jpeg" alt="" style="width: 300px; width: 300px;">
+                <img src="images/ibrahim5.jpeg" alt="" style="width: 300px; width: 300px;">
+                <img src="images/ibrahim6.jpeg" alt="" style="width: 300px; width: 300px;">
+               
+            </div>
+            <!-- 2 -->
+            <div class="dream">
+                 <img src="images/ibrahim4.jpeg" alt="" style="width: 300px; width: 300px;">
+                <img src="images/ibrahim7.jpeg" alt="" style="width: 300px; width: 300px;">
+                <img src="images/ibrahim8.jpeg" alt=""style="width: 300px; width: 300px;">
+                <img src="images/ibrahim9.jpeg" alt=""style="width: 300px; width: 300px;">
+                <img src="images/ibrahim10.jpeg" alt=""style="width: 300px; width: 300px;">
+               
+            </div>
+            <!-- 3 -->
+            <div class="dream">
+                <img src="images/ibrahim5.jpeg" alt="" style="width: 300px; width: 300px;" >
+                <img src="images/ibrahim2.jpeg" alt="" style="width: 300px; width: 300px;">
+                <img src="images/ibrahim10.jpeg" alt="" style="width: 300px; width: 300px;">
+                <img src="images/ibrahim1.jpeg" alt="" style="width: 300px; width: 300px;">
+                <img src="images/ibrahim9.jpeg" alt="" style="width: 300px; width: 300px;">
+               
+            </div>
+            
+            
+
+        </div>
+
+
+        <div class="btn">
+            <a href="/">more</a>
+        </div>
+
+    </div>
+
+<!-- footer section -->
+
+<div class="footer__container">
+    <div class="footer__links">
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <h2>About us</h2>
+                <a href="/">How it works</a>
+                <a href="/">Testimonials</a>
+                <a href="/">Careers</a>
+                <a href="/">Investment</a>
+                <a href="/">Terms of services</a>
+            </div>
+              <div class="footer__link--items">
+                <h2>About us</h2>
+                <a href="/">How it works</a>
+                <a href="/">Testimonials</a>
+                <a href="/">Careers</a>
+                <a href="/">Investment</a>
+                <a href="/">Terms of services</a>
+            </div>
+        </div>
+         <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <h2>About us</h2>
+                <a href="/">How it works</a>
+                <a href="/">Testimonials</a>
+                <a href="/">Careers</a>
+                <a href="/">Investment</a>
+                <a href="/">Terms of services</a>
+            </div>
+              <div class="footer__link--items">
+                <h2>About us</h2>
+                <a href="/">How it works</a>
+                <a href="/">Testimonials</a>
+                <a href="/">Careers</a>
+                <a href="/">Investment</a>
+                <a href="/">Terms of services</a>
+            </div>
+        </div>
+    </div>
+    <div class="social__media">
+        <div class="social__media--wrap">
+            <div class="footer__logo">
+                <a href="/" id="footer__logo"><i class="fas faa-gem"></i>BravoArt</a>
+            </div>
+            <p class="website__right">BravoArt 2024. All rights reserved</p>
+            <div class="social__icons">
+                 <a href="https://web.facebook.com/profile.php?id=100006855840202&mibextid=LQQJ4d&_rdc=1&_rdr" class="social__icon--link"
+                  target="_blank">
+                <i class="fa fa-facebook"></i>
+            </a>
+               <a href="" class="social__icon--link"
+                  target="_blank">
+                <i class="fa fa-instagram"></i>
+            </a>
+               <!-- <a href="" class="social__icon--link"
+                  target="_blank">
+                <i class="fa fa-twitter"></i>
+            </a> -->
+               <a href="https://wa.me/2349059767027" class="social__icon--link"
+                  target="_blank">
+                <i class="fa fa-whatsapp"></i>
+            </a>
+               <a href="09059767027" class="social__icon--link"
+                  target="_blank">
+                <i class="fa fa-phone"></i>
+            </a>
+        </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
